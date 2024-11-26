@@ -29,8 +29,8 @@ pipeline{
                     sh ''' 
                             $SCANNER_HOME/bin/sonar-scanner \
                             -Dsonar.projectKey=reddit \
-                            -Dsonar.host.url=http://13.233.38.135:9000 \
-                            -Dsonar.login=sqp_db403119d3036d974aa6dd866625fc9ab616fb14  '''
+                            -Dsonar.host.url=http://65.1.131.79:9000 \
+                            -Dsonar.login=sqp_eb42f8166045eab97143360f7d6c39a8fa2fe58a  '''
                 }
             }
         }
