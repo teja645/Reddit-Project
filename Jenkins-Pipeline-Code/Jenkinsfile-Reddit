@@ -30,8 +30,8 @@ pipeline{
                            ${SCANNER_HOME}/bin/sonar-scanner \
                               -Dsonar.projectKey=reddit \
                               -Dsonar.sources=. \
-                              -Dsonar.host.url=http://52.66.65.1:9000 \
-                              -Dsonar.login=sqp_ed04154518b68af4929f20cede8cafc7b72c4a7f '''
+                              -Dsonar.host.url=http://3.110.31.145:9000 \
+                              -Dsonar.login=sqp_8416bdb0c5880d475802ef7b62984b3ffc73577a '''
                 }
             }
         }
