@@ -30,7 +30,7 @@ pipeline{
                            ${SCANNER_HOME}/bin/sonar-scanner \
                               -Dsonar.projectKey=reddit \
                               -Dsonar.sources=. \
-                              -Dsonar.host.url=http://3.110.131.13:9000 \
+                              -Dsonar.host.url=http://43.205.228.63:9000 \
                               -Dsonar.login=${SONAR_TOKEN} '''
                 }
             }
